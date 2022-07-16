@@ -1,0 +1,10 @@
+// adds 'px' to number value
+@function add-px($var) {
+    @return $var * 1px;
+  }
+  
+  // remove 'px' from value
+  @function strip-unit($value) {
+    @return $value / 1;
+  }
+  

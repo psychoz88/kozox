@@ -1,0 +1,15 @@
+@import '../styles/configs/functions';
+
+$xsBp: 480;
+$smBp: 576;
+$mdBp: 768; // tablet
+$lgBp: 992; // desktop
+$xlgBp: 1200;
+$preLgBp: $lgBp - 1;
+$preXLgBd: $xlgBp - 1;
+
+$xs: add-px($xsBp);
+$sm: add-px($smBp);
+$md: add-px($mdBp);
+$lg: add-px($lgBp);
+$xlg: add-px($xlgBp);

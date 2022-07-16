@@ -1,10 +1,22 @@
 import React from 'react';
-import styles from '../styles/header.module.scss';
+import styled from 'styled-components';
+
+import {Green, NW2Primary} from './constants/styleVars';
+
+const StyledDiv = styled.div`
+  background: ${NW2Primary};
+`;
+
+const Title = styled.h1`
+  color: ${Green};
+`;
 
 const Header = () => {
   return (
     <>
-      <h1 className={styles.header}>Kozox</h1>
+      <StyledDiv>
+        <Title>Kozox</Title>
+      </StyledDiv>
     </>
   );
 };
